@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react"
-import TradingViewChart from "./TradingViewChart"
+
 import { Info } from "../Info";
+import TradingViewChart from "./TradingviewChart";
 
 const Dashboard = () => {
   const [theme, setTheme] = useState(
